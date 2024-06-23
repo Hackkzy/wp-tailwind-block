@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/wp-tailwind-block",
+	"version": "1.0.0",
+	"title": "WP Tailwind block",
+	"category": "widgets",
+	"description": "An example project demonstrating how to use Tailwind CSS in WordPress blocks.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wp-tailwind-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
